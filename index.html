@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigo Invisible Celula Team Ever y Eli</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Celula Team Ever  & Eli</h1>
+    <div class="form">
+      <input type="text" id="nameInput" placeholder="Nombre del participante">
+      <button onclick="addParticipant()">Agregar</button>
+    </div>
+    <div class="participants">
+      <h2>Participantes:</h2>
+      <ul id="participantsList"></ul>
+      <button onclick="assignSecretFriends()">Asignar los Amigos Secretos</button>
+      <div id="result" class="hidden">
+        <h2>Resultados:</h2>
+        <ul id="resultList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
